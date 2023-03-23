@@ -1,0 +1,32 @@
+.contenedor-productos {
+    padding: 0 0 3rem 0;
+}
+
+.vista_producto {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .vista_producto {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        width: 90%;
+        margin: 0 auto;
+        padding: 4rem 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .vista_producto-img {
+        max-width: 100%;
+        width: 50%;
+        height: 45rem;
+    }
+}
+
+.vista_producto-texto {
+    padding: 2rem;
+}
