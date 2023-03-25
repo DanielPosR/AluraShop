@@ -3,8 +3,8 @@ const url = "https://danielposr.github.io/Alura-Geek/data/db.json";
 
 async function listaUsuarios() {
 
-    await fetch(url[1])
-        .then(respuesta => respuesta.json());
+    await fetch(url)
+        .then(respuesta => respuesta.json())
 }
 
 async function crearCliente(correo, password) {
