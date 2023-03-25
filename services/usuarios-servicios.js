@@ -1,9 +1,9 @@
-const url = "https://danielposr.github.io/Alura-Geek/data/db.json";
+const url = "http://localhost:3000/usuarios";
 
 
 async function listaUsuarios() {
 
-    await fetch(url)
+    return await fetch(url)
         .then(respuesta => respuesta.json());
 }
 

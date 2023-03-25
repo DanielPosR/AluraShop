@@ -29,27 +29,33 @@ function nuevoProducto(id, nombre, precio, imagen, categoria, link) {
 
 productosServicios.listaProductos()
     .then(async respuesta => {
-        await respuesta.forEach(({ id, nombre, precio, imagen, categoria, link }) => {
-            const nuevaLinea = nuevoProducto(id, nombre, precio, imagen, categoria, link);
 
-            switch (categoria) {
-                case 'star':
-                    contenedorStar.appendChild(nuevaLinea);
-                    break;
+        try {
 
-                case 'consolas':
-                    contenedorConsolas.appendChild(nuevaLinea);
-                    break;
+            await respuesta.forEach(({ id, nombre, precio, imagen, categoria, link }) => {
+                const nuevaLinea = nuevoProducto(id, nombre, precio, imagen, categoria, link);
 
-                case 'diversos':
-                    contenedorDiversos.appendChild(nuevaLinea);
+                switch (categoria) {
+                    case 'star':
+                        contenedorStar.appendChild(nuevaLinea);
+                        break;
 
-                default:
-                    categoria = '';
-                    break;
-            }
-        })
+                    case 'consolas':
+                        contenedorConsolas.appendChild(nuevaLinea);
+                        break;
+
+                    case 'diversos':
+                        contenedorDiversos.appendChild(nuevaLinea);
+
+                    default:
+                        categoria = '';
+                        break;
+                }
+            })
+        } catch (error) {
+            console.log(error)
+        }
+
     })
-    .catch(error => console.log(error));
 
 
