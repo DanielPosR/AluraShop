@@ -1,4 +1,4 @@
-const url = /* "http://localhost:3000/usuarios" */ "https://danielposr.github.io/Alura-Geek/db.json";
+const url = "http://localhost:3000/usuarios";
 
 
 async function listaUsuarios() {
