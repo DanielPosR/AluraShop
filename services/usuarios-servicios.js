@@ -1,4 +1,4 @@
-const url = "https://danielposr.github.io/Alura-Geek/data/usuarios";
+const url = "https://danielposr.github.io/Alura-Geek/data/db.json";
 
 
 async function listaUsuarios() {

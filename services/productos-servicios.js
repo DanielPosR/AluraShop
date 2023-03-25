@@ -1,5 +1,5 @@
 
-const url = 'https://danielposr.github.io/Alura-Geek/data/productos';
+const url = 'https://danielposr.github.io/Alura-Geek/data/db.json';
 //GET
 
 async function listaProductos() {
