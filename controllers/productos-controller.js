@@ -28,8 +28,8 @@ function nuevoProducto(id, nombre, precio, imagen, categoria, link) {
 
 
 productosServicios.listaProductos()
-    .then(async respuesta => {
-        await respuesta.forEach(({ id, nombre, precio, imagen, categoria, link }) => {
+    .then(respuesta => {
+        respuesta.forEach(({ id, nombre, precio, imagen, categoria, link }) => {
             const nuevaLinea = nuevoProducto(id, nombre, precio, imagen, categoria, link);
 
             switch (categoria) {
