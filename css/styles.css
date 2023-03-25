@@ -194,7 +194,7 @@ img {
 
 /* HERO */
 .hero {
-    background-image: url(/img/Hero.png);
+    background-image: url("../img/Hero.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
