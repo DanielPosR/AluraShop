@@ -151,6 +151,14 @@
       "categoria": "consolas",
       "link": "./vista-producto.html",
       "id": 19
+    },
+    {
+      "nombre": "Muñeco",
+      "precio": "300",
+      "imagen": "./img/productos/producto-3.png",
+      "categoria": "star",
+      "link": "./vista-producto.html",
+      "id": 20
     }
   ],
   "usuarios": [
@@ -168,6 +176,11 @@
       "correo": "correo2@correo.com",
       "password": "123",
       "id": 3
+    },
+    {
+      "correo": "daniel@correo2.com",
+      "password": "147",
+      "id": 4
     }
   ]
 }
