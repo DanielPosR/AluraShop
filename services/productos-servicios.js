@@ -5,7 +5,7 @@ const url = 'https://danielposr.github.io/Alura-Geek/data/db.json';
 async function listaProductos() {
 
     await fetch(url)
-        .then(respuesta => respuesta.json())
+        .then(respuesta => respuesta.json());
 }
 
 async function crearProducto(nombre, precio, imagen, categoria, link) {
