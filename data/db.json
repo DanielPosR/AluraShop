@@ -152,22 +152,5 @@
       "link": "./vista-producto.html",
       "id": 19
     }
-  ],
-  "usuarios": [
-    {
-      "correo": "correo@correo.com",
-      "password": "12345",
-      "id": 1
-    },
-    {
-      "correo": "danielposr@outlook.com",
-      "password": "Saturno15",
-      "id": 2
-    },
-    {
-      "correo": "correo2@correo.com",
-      "password": "123",
-      "id": 3
-    }
   ]
 }
