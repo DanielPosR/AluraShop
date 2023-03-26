@@ -1,16 +1,16 @@
 
-const url = 'https://apimocha.com/api-alurageek/productos';
+// const url = 'https://apimocha.com/api-alurageek/productos';
 //GET
 
 async function listaProductos() {
 
-    return await fetch(url)
+    return await fetch('https://apimocha.com/api-alurageek/productos')
         .then(respuesta => respuesta.json());
 }
 
 async function crearProducto(nombre, precio, imagen, categoria, link) {
 
-    await fetch(url, {
+    await fetch('https://apimocha.com/api-alurageek/productos', {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
