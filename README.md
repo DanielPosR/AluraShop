@@ -14,7 +14,7 @@ En este proyecto se pusieron en practica tecnologías y conocimientos:
 * Para la api de productos y usuarios: [mockAPi](mockapi.io)
 
 
-# El sitio cuenta con toda la funcionalidad y validaciones, podemos realizar las siguientes acciones:
+## El sitio cuenta con toda la funcionalidad y validaciones, podemos realizar las siguientes acciones:
 
 * Iniciar sesión
 * Cerrar sesión
