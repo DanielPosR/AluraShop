@@ -45,7 +45,7 @@ async function usuarioExiste() {
         usuarioAutenticado(true)
         setTimeout(() => {
             spinner.classList.remove('spinner');
-            window.location.href = "/index.html";
+            window.location.href = "./productos.html";
         }, 5000);
     }
 }
