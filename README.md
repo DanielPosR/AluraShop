@@ -3,7 +3,7 @@ Challenge Alura Geek
 
 ## Este es el tercer Challenge de la formación Front End de Alura Latam y Oracle Next Education
 
-En este proyecto se pusieron en practica tecnologías y conocimientos en:
+En este proyecto se pusieron en practica las siguientes tecnologías y conocimientos:
 
 * HTML
 * CSS
@@ -11,6 +11,7 @@ En este proyecto se pusieron en practica tecnologías y conocimientos en:
 * Json-Server
 * Fetch API
 * Modulos JS
+* Lógica de programación
 * Para la api de productos y usuarios: [mockAPi](mockapi.io)
 
 
