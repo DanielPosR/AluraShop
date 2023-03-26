@@ -1,7 +1,7 @@
 # AluraShop
 Challenge Alura Geek
 
-# Este es el tercer Challenge de la formación Front End de Alura Latam y Oracle Next Education
+## Este es el tercer Challenge de la formación Front End de Alura Latam y Oracle Next Education
 
 En este proyecto se pusieron en practica tecnologías y conocimientos:
 
@@ -11,7 +11,7 @@ En este proyecto se pusieron en practica tecnologías y conocimientos:
 * Json-Server
 * Fetch API
 * Modulos JS
-* Para la api de productos y usuarios: [(mockapi.io)]
+* Para la api de productos y usuarios: [mockAPi](mockapi.io)
 
 
 # El sitio cuenta con toda la funcionalidad y validaciones, podemos realizar las siguientes acciones:
