@@ -1,4 +1,4 @@
-import { usuariosServices } from "../../services/usuarios-servicios.js";
+import { usuariosServices } from "../services/usuarios-servicios.js";
 
 const formulario = document.querySelector('[data-form]');
 
@@ -43,7 +43,7 @@ async function crearCuenta(e) {
             setTimeout(() => {
                 usuariosServices.crearCliente(inputEmail.value, inputPassword.value)
                     .then(respuesta => {
-                        window.location.href = "../login.html";
+                        window.location.href = "./login.html";
                     })
 
                     .catch(error => console.log(error))

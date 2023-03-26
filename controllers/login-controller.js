@@ -1,4 +1,4 @@
-import { usuariosServices } from "../../services/usuarios-servicios.js";
+import { usuariosServices } from "../services/usuarios-servicios.js";
 
 const inputEmail = document.querySelector('#email');
 const inputPassword = document.querySelector('#password');
@@ -45,7 +45,7 @@ async function usuarioExiste() {
         usuarioAutenticado(true)
         setTimeout(() => {
             spinner.classList.remove('spinner');
-            window.location.href = "../index.html";
+            window.location.href = "./index.html";
         }, 5000);
     }
 }
