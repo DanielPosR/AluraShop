@@ -143,22 +143,6 @@
       "imagen": "./img/productos/producto-18.png",
       "categoria": "diversos",
       "link": "./vista-producto.html"
-    },
-    {
-      "nombre": "NUEVO PRODUCTO",
-      "precio": "100",
-      "imagen": "./img/productos/producto-14.png",
-      "categoria": "consolas",
-      "link": "./vista-producto.html",
-      "id": 19
-    },
-    {
-      "nombre": "Muñeco",
-      "precio": "300",
-      "imagen": "./img/productos/producto-3.png",
-      "categoria": "star",
-      "link": "./vista-producto.html",
-      "id": 20
     }
   ],
   "usuarios": [

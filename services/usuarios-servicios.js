@@ -1,4 +1,4 @@
-const url = "http://localhost:3000/usuarios";
+const url = "https://apimocha.com/api-alurageek/usuarios";
 
 
 async function listaUsuarios() {

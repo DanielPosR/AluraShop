@@ -1,5 +1,5 @@
 
-const url = 'http://localhost:3000/productos';
+const url = 'https://apimocha.com/api-alurageek/productos';
 //GET
 
 async function listaProductos() {
