@@ -29,7 +29,6 @@ function nuevoProducto(id, nombre, precio, imagen, categoria, link) {
 
 productosServicios.listaProductos()
     .then(async respuesta => {
-
         try {
 
             await respuesta.forEach(({ id, nombre, precio, imagen, categoria, link }) => {

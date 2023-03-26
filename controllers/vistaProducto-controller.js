@@ -76,10 +76,11 @@ const contenedorProductos = document.querySelector('.productos');
 
 productosServicios.listaProductos()
     .then(async respuesta => {
+
         let contador = 0;
         let nuevoArray = [];
         do {
-            const max = await respuesta.length;
+            const max = respuesta.length;
             const aleatorio = Math.floor(Math.random() * max);
             nuevoArray.push(respuesta[aleatorio]);
 

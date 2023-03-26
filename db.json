@@ -150,21 +150,6 @@
       "correo": "correo@correo.com",
       "password": "12345",
       "id": 1
-    },
-    {
-      "correo": "danielposr@outlook.com",
-      "password": "Saturno15",
-      "id": 2
-    },
-    {
-      "correo": "correo2@correo.com",
-      "password": "123",
-      "id": 3
-    },
-    {
-      "correo": "daniel@correo2.com",
-      "password": "147",
-      "id": 4
     }
   ]
 }

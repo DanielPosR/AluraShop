@@ -1,22 +1,22 @@
-// const url = "https://apimocha.com/api-alurageek/usuarios";
+const url = "https://6420737f25cb65721049b71a.mockapi.io/api/alura-geek/usuarios";
 
 
 async function listaUsuarios() {
 
-    return await fetch("https://apimocha.com/api-alurageek/usuarios")
+    return await fetch(url)
         .then(respuesta => respuesta.json());
 }
 
 async function crearCliente(correo, password) {
 
-    return await fetch("https://apimocha.com/api-alurageek/usuarios", {
+    return await fetch(url, {
         method: 'POST',
         headers: {
             "Content-Type": "application/json"
         },
         body: JSON.stringify({
-            correo,
-            password
+            correo: correo,
+            password: password
         })
     })
 }
