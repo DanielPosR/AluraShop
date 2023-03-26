@@ -39,6 +39,7 @@ productosServicios.listaProductos()
     .then(async respuesta => {
 
         for (let i = 0; i < respuesta.length; i++) {
+            
             const id = await respuesta[i].Number(id);
             const imagen = await respuesta[i].imagen;
             const nombre = await respuesta[i].nombre;
