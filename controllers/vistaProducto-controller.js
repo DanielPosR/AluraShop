@@ -44,7 +44,8 @@ productosServicios.listaProductos()
             const imagen = await respuesta[i].imagen;
             const nombre = await respuesta[i].nombre;
 
-            if (id == idURL) {
+            if (Number(id) === idURL) {
+                
                 const mostrarProducto = obtenerInfoProducto(nombre, imagen);
                 contenedorProducto.appendChild(mostrarProducto);
 
