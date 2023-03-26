@@ -3,7 +3,7 @@ Challenge Alura Geek
 
 ## Este es el tercer Challenge de la formación Front End de Alura Latam y Oracle Next Education
 
-En este proyecto se pusieron en practica tecnologías y conocimientos:
+En este proyecto se pusieron en practica tecnologías y conocimientos en:
 
 * HTML
 * CSS
