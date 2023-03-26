@@ -45,7 +45,7 @@ async function usuarioExiste() {
         usuarioAutenticado(true)
         setTimeout(() => {
             spinner.classList.remove('spinner');
-            window.location.href = "./productos.html";
+            window.location.href = "/AluraShop/productos.html";
         }, 5000);
     }
 }
