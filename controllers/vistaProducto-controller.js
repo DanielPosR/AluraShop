@@ -7,7 +7,7 @@ const url = new URL(window.location);
 const idURL = Number(url.searchParams.get("id"));
 
 
-function obtenerInfoProducto(nombre, imagen) {
+function obtenerInfoProducto(nombre, imagen, descripcion) {
 
     if (idURL === null) {
         window.location.href = "./index.html";
@@ -22,7 +22,7 @@ function obtenerInfoProducto(nombre, imagen) {
             <div class="vista_producto-texto">
                 <h2 class="productos_listado-titulo">${nombre}</h2>
 
-                <p class="vista_producto-parrafo">Fusce eget cursus felis. Proin quis urna nunc. Quisque ac sollicitudin sapien. Curabitur dictum quis neque a semper. Nunc sit amet venenatis metus. Suspendisse nibh turpis, venenatis vitae est et, vulputate interdum ipsum. Morbi interdum elit non enim pretium imperdiet. Nunc iaculis porta risus ullamcorper aliquam. Nullam aliquet purus ac ullamcorper cursus. Nullam in eros euismod, semper magna ac, tincidunt nulla. Phasellus eu lectus viverra, rhoncus risus a, iaculis turpis. Integer tortor quam, faucibus a malesuada eget, tempor ac metus.
+                <p class="vista_producto-parrafo">${descripcion}
                 </p>
             </div>
         `;
@@ -43,10 +43,11 @@ productosServicios.listaProductos()
             const id = await respuesta[i].id;
             const imagen = await respuesta[i].imagen;
             const nombre = await respuesta[i].nombre;
+            const descripcion = await respuesta[i].descripcion;
 
             if (Number(id) === idURL) {
                 
-                const mostrarProducto = obtenerInfoProducto(nombre, imagen);
+                const mostrarProducto = obtenerInfoProducto(nombre, imagen, descripcion);
                 contenedorProducto.appendChild(mostrarProducto);
 
                 return;

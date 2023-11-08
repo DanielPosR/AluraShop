@@ -7,6 +7,7 @@ const inputNombre = document.querySelector('#nombre');
 const inputPrecio = document.querySelector('#precio');
 const inputURLImagen = document.querySelector('#imagen');
 const inputCategoria = document.querySelector('#categoria');
+const descripcion = document.querySelector('#descripcion');
 
 const btnRegistarProducto = document.querySelector('#registrar-producto-btn');
 
@@ -24,11 +25,16 @@ function iniciarApp() {
 
     formulario.addEventListener('submit', registrarProducto);
 
+    if (!localStorage.getItem('autenticado')) {
+        window.location.href = '/';
+    }
+
 }
 
 
 function validarForm(e) {
     e.preventDefault();
+
 
     if (e.target.value === '') {
 
@@ -44,62 +50,32 @@ function validarForm(e) {
         btnRegistarProducto.disabled = false;
     }
 
+
 }
 
 function registrarProducto(e) {
     e.preventDefault();
+    const parrafo = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nibh vitae mi pellentesque viverra. Sed posuere orci ut pretium molestie. Integer lacinia enim vitae eros posuere ultricies. Pellentesque in risus accumsan neque ullamcorper tempus non pulvinar augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec auctor ligula vitae nisl laoreet cursus. Aliquam erat volutpat. Ut vestibulum mauris ullamcorper augue sodales, ut tempus neque placerat. Donec nec egestas justo, quis semper diam. Sed efficitur aliquam leo, sagittis gravida nisl tincidunt ut. Phasellus justo justo, feugiat a fringilla id, sollicitudin a arcu. In hac habitasse platea dictumst.'
+    if (descripcion.value === '') {
+        descripcion.value = parrafo;
+    }
 
     //Añade el link por default a los nuevos productos
     const link = "./vista-producto.html";
-    const numeroAleatorio = Math.floor(Math.random() * 18)
-    inputURLImagen.value = `./img/productos/producto-${numeroAleatorio}.png`;
+
     mostrarMensaje("Producto registrado correctamente. Redireccionando..", 'succes');
 
     setTimeout(() => {
-        productosServicios.crearProducto(inputNombre.value, inputPrecio.value, inputURLImagen.value, inputCategoria.value, link)
+        productosServicios.crearProducto(inputNombre.value, inputPrecio.value, inputURLImagen.value, inputCategoria.value, descripcion.value, link)
             .then(respuesta => {
 
                 formulario.reset();
-                window.location.href = "/AluraShop/productos.html";
+                window.location.href = "/productos.html";
 
             })
             .catch(error => console.log(error))
     }, 3000);
 
-}
-
-
-const file = document.querySelector('#subir-img');
-file.addEventListener('change', mostrar);
-let archivo;
-
-function mostrar() {
-
-    const tamañoMaximo = 100000;
-
-    if (this.files.length <= 0) return;
-
-    archivo = this.files[0];
-
-    if (archivo.size < tamañoMaximo) {
-
-        var archivoImg = document.getElementById("subir-img").files[0];
-        var reader = new FileReader();
-        if (file) {
-            reader.readAsDataURL(archivoImg);
-            reader.onloadend = function () {
-                document.getElementById("img").src = reader.result;
-            }
-        }
-        inputURLImagen.value = `./img/productos/${archivo.name}`;
-
-        return;
-    }
-    else {
-        const maximoMB = tamañoMaximo / 1000;
-        alert(`La imagen excede el tamaño permitido que es de ${maximoMB}Kbytes`);
-    }
-    return archivo;
 }
 
 

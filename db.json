@@ -1,147 +1,165 @@
 {
   "productos": [
     {
-      "id": 1,
+      "id":"1" ,
       "nombre": "Baby Yoda",
       "precio": 300,
       "imagen": "./img/productos/producto-1.png",
       "categoria": "star",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nibh vitae mi pellentesque viverra. Sed posuere orci ut pretium molestie. Integer lacinia enim vitae eros posuere ultricies. Pellentesque in risus accumsan neque ullamcorper tempus non pulvinar augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec auctor ligula vitae nisl laoreet cursus. Aliquam erat volutpat. Ut vestibulum mauris ullamcorper augue sodales, ut tempus neque placerat. Donec nec egestas justo, quis semper diam. Sed efficitur aliquam leo, sagittis gravida nisl tincidunt ut. Phasellus justo justo, feugiat a fringilla id, sollicitudin a arcu. In hac habitasse platea dictumst.",
       "link": "./vista-producto.html"
     },
     {
-      "id": 2,
+      "id":"2" ,
       "nombre": "Darth Vader",
       "precio": 175,
       "imagen": "./img/productos/producto-2.png",
       "categoria": "star",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nibh vitae mi pellentesque viverra. Sed posuere orci ut pretium molestie. Integer lacinia enim vitae eros posuere ultricies. Pellentesque in risus accumsan neque ullamcorper tempus non pulvinar augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec auctor ligula vitae nisl laoreet cursus. Aliquam erat volutpat. Ut vestibulum mauris ullamcorper augue sodales, ut tempus neque placerat. Donec nec egestas justo, quis semper diam. Sed efficitur aliquam leo, sagittis gravida nisl tincidunt ut. Phasellus justo justo, feugiat a fringilla id, sollicitudin a arcu. In hac habitasse platea dictumst.",
       "link": "./vista-producto.html"
     },
     {
-      "id": 3,
+      "id":"3" ,
       "nombre": "Storm Trooper",
       "precio": 150,
       "imagen": "./img/productos/producto-3.png",
       "categoria": "star",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nibh vitae mi pellentesque viverra. Sed posuere orci ut pretium molestie. Integer lacinia enim vitae eros posuere ultricies. Pellentesque in risus accumsan neque ullamcorper tempus non pulvinar augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec auctor ligula vitae nisl laoreet cursus. Aliquam erat volutpat. Ut vestibulum mauris ullamcorper augue sodales, ut tempus neque placerat. Donec nec egestas justo, quis semper diam. Sed efficitur aliquam leo, sagittis gravida nisl tincidunt ut. Phasellus justo justo, feugiat a fringilla id, sollicitudin a arcu. In hac habitasse platea dictumst.",
       "link": "./vista-producto.html"
     },
     {
-      "id": 4,
+      "id":"4" ,
       "nombre": "Taza Trooper",
       "precio": 280,
       "imagen": "./img/productos/producto-4.png",
       "categoria": "star",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nibh vitae mi pellentesque viverra. Sed posuere orci ut pretium molestie. Integer lacinia enim vitae eros posuere ultricies. Pellentesque in risus accumsan neque ullamcorper tempus non pulvinar augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec auctor ligula vitae nisl laoreet cursus. Aliquam erat volutpat. Ut vestibulum mauris ullamcorper augue sodales, ut tempus neque placerat. Donec nec egestas justo, quis semper diam. Sed efficitur aliquam leo, sagittis gravida nisl tincidunt ut. Phasellus justo justo, feugiat a fringilla id, sollicitudin a arcu. In hac habitasse platea dictumst.",
       "link": "./vista-producto.html"
     },
     {
-      "id": 5,
+      "id":"5" ,
       "nombre": "Lego´s",
       "precio": 370,
       "imagen": "./img/productos/producto-5.png",
       "categoria": "star",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nibh vitae mi pellentesque viverra. Sed posuere orci ut pretium molestie. Integer lacinia enim vitae eros posuere ultricies. Pellentesque in risus accumsan neque ullamcorper tempus non pulvinar augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec auctor ligula vitae nisl laoreet cursus. Aliquam erat volutpat. Ut vestibulum mauris ullamcorper augue sodales, ut tempus neque placerat. Donec nec egestas justo, quis semper diam. Sed efficitur aliquam leo, sagittis gravida nisl tincidunt ut. Phasellus justo justo, feugiat a fringilla id, sollicitudin a arcu. In hac habitasse platea dictumst.",
       "link": "./vista-producto.html"
     },
     {
-      "id": 6,
+      "id":"6" ,
       "nombre": "Poster Yoda",
       "precio": 65,
       "imagen": "./img/productos/producto-6.png",
       "categoria": "star",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nibh vitae mi pellentesque viverra. Sed posuere orci ut pretium molestie. Integer lacinia enim vitae eros posuere ultricies. Pellentesque in risus accumsan neque ullamcorper tempus non pulvinar augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec auctor ligula vitae nisl laoreet cursus. Aliquam erat volutpat. Ut vestibulum mauris ullamcorper augue sodales, ut tempus neque placerat. Donec nec egestas justo, quis semper diam. Sed efficitur aliquam leo, sagittis gravida nisl tincidunt ut. Phasellus justo justo, feugiat a fringilla id, sollicitudin a arcu. In hac habitasse platea dictumst.",
       "link": "./vista-producto.html"
     },
     {
-      "id": 7,
+      "id":"7" ,
       "nombre": "Control Xbox",
       "precio": 750,
       "imagen": "./img/productos/producto-7.png",
       "categoria": "consolas",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nibh vitae mi pellentesque viverra. Sed posuere orci ut pretium molestie. Integer lacinia enim vitae eros posuere ultricies. Pellentesque in risus accumsan neque ullamcorper tempus non pulvinar augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec auctor ligula vitae nisl laoreet cursus. Aliquam erat volutpat. Ut vestibulum mauris ullamcorper augue sodales, ut tempus neque placerat. Donec nec egestas justo, quis semper diam. Sed efficitur aliquam leo, sagittis gravida nisl tincidunt ut. Phasellus justo justo, feugiat a fringilla id, sollicitudin a arcu. In hac habitasse platea dictumst.",
       "link": "./vista-producto.html"
     },
     {
-      "id": 8,
+      "id":"8" ,
       "nombre": "Playera gamer",
       "precio": 145,
       "imagen": "./img/productos/producto-8.png",
       "categoria": "consolas",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nibh vitae mi pellentesque viverra. Sed posuere orci ut pretium molestie. Integer lacinia enim vitae eros posuere ultricies. Pellentesque in risus accumsan neque ullamcorper tempus non pulvinar augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec auctor ligula vitae nisl laoreet cursus. Aliquam erat volutpat. Ut vestibulum mauris ullamcorper augue sodales, ut tempus neque placerat. Donec nec egestas justo, quis semper diam. Sed efficitur aliquam leo, sagittis gravida nisl tincidunt ut. Phasellus justo justo, feugiat a fringilla id, sollicitudin a arcu. In hac habitasse platea dictumst.",
       "link": "./vista-producto.html"
     },
     {
-      "id": 9,
+      "id":"9" ,
       "nombre": "PS5",
       "precio": 8500,
       "imagen": "./img/productos/producto-9.png",
       "categoria": "consolas",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nibh vitae mi pellentesque viverra. Sed posuere orci ut pretium molestie. Integer lacinia enim vitae eros posuere ultricies. Pellentesque in risus accumsan neque ullamcorper tempus non pulvinar augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec auctor ligula vitae nisl laoreet cursus. Aliquam erat volutpat. Ut vestibulum mauris ullamcorper augue sodales, ut tempus neque placerat. Donec nec egestas justo, quis semper diam. Sed efficitur aliquam leo, sagittis gravida nisl tincidunt ut. Phasellus justo justo, feugiat a fringilla id, sollicitudin a arcu. In hac habitasse platea dictumst.",
       "link": "./vista-producto.html"
     },
     {
-      "id": 10,
+      "id":"10" ,
       "nombre": "Nintendo Switch",
       "precio": 6200,
       "imagen": "./img/productos/producto-10.png",
       "categoria": "consolas",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nibh vitae mi pellentesque viverra. Sed posuere orci ut pretium molestie. Integer lacinia enim vitae eros posuere ultricies. Pellentesque in risus accumsan neque ullamcorper tempus non pulvinar augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec auctor ligula vitae nisl laoreet cursus. Aliquam erat volutpat. Ut vestibulum mauris ullamcorper augue sodales, ut tempus neque placerat. Donec nec egestas justo, quis semper diam. Sed efficitur aliquam leo, sagittis gravida nisl tincidunt ut. Phasellus justo justo, feugiat a fringilla id, sollicitudin a arcu. In hac habitasse platea dictumst.",
       "link": "./vista-producto.html"
     },
     {
-      "id": 11,
+      "id":"11" ,
       "nombre": "Xbox X",
       "precio": 12000,
       "imagen": "./img/productos/producto-11.png",
       "categoria": "consolas",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nibh vitae mi pellentesque viverra. Sed posuere orci ut pretium molestie. Integer lacinia enim vitae eros posuere ultricies. Pellentesque in risus accumsan neque ullamcorper tempus non pulvinar augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec auctor ligula vitae nisl laoreet cursus. Aliquam erat volutpat. Ut vestibulum mauris ullamcorper augue sodales, ut tempus neque placerat. Donec nec egestas justo, quis semper diam. Sed efficitur aliquam leo, sagittis gravida nisl tincidunt ut. Phasellus justo justo, feugiat a fringilla id, sollicitudin a arcu. In hac habitasse platea dictumst.",
       "link": "./vista-producto.html"
     },
     {
-      "id": 12,
+      "id":"12" ,
       "nombre": "Nintendo Retro",
       "precio": 3450,
       "imagen": "./img/productos/producto-12.png",
       "categoria": "consolas",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nibh vitae mi pellentesque viverra. Sed posuere orci ut pretium molestie. Integer lacinia enim vitae eros posuere ultricies. Pellentesque in risus accumsan neque ullamcorper tempus non pulvinar augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec auctor ligula vitae nisl laoreet cursus. Aliquam erat volutpat. Ut vestibulum mauris ullamcorper augue sodales, ut tempus neque placerat. Donec nec egestas justo, quis semper diam. Sed efficitur aliquam leo, sagittis gravida nisl tincidunt ut. Phasellus justo justo, feugiat a fringilla id, sollicitudin a arcu. In hac habitasse platea dictumst.",
       "link": "./vista-producto.html"
     },
     {
-      "id": 13,
+      "id":"13" ,
       "nombre": "Pikachu",
       "precio": 250,
       "imagen": "./img/productos/producto-13.png",
       "categoria": "diversos",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nibh vitae mi pellentesque viverra. Sed posuere orci ut pretium molestie. Integer lacinia enim vitae eros posuere ultricies. Pellentesque in risus accumsan neque ullamcorper tempus non pulvinar augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec auctor ligula vitae nisl laoreet cursus. Aliquam erat volutpat. Ut vestibulum mauris ullamcorper augue sodales, ut tempus neque placerat. Donec nec egestas justo, quis semper diam. Sed efficitur aliquam leo, sagittis gravida nisl tincidunt ut. Phasellus justo justo, feugiat a fringilla id, sollicitudin a arcu. In hac habitasse platea dictumst.",
       "link": "./vista-producto.html"
     },
     {
-      "id": 14,
+      "id":"14" ,
       "nombre": "Sonic",
       "precio": 250,
       "imagen": "./img/productos/producto-14.png",
       "categoria": "diversos",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nibh vitae mi pellentesque viverra. Sed posuere orci ut pretium molestie. Integer lacinia enim vitae eros posuere ultricies. Pellentesque in risus accumsan neque ullamcorper tempus non pulvinar augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec auctor ligula vitae nisl laoreet cursus. Aliquam erat volutpat. Ut vestibulum mauris ullamcorper augue sodales, ut tempus neque placerat. Donec nec egestas justo, quis semper diam. Sed efficitur aliquam leo, sagittis gravida nisl tincidunt ut. Phasellus justo justo, feugiat a fringilla id, sollicitudin a arcu. In hac habitasse platea dictumst.",
       "link": "./vista-producto.html"
     },
     {
-      "id": 15,
+      "id":"15" ,
       "nombre": "Radio retro",
       "precio": 200,
       "imagen": "./img/productos/producto-15.png",
       "categoria": "diversos",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nibh vitae mi pellentesque viverra. Sed posuere orci ut pretium molestie. Integer lacinia enim vitae eros posuere ultricies. Pellentesque in risus accumsan neque ullamcorper tempus non pulvinar augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec auctor ligula vitae nisl laoreet cursus. Aliquam erat volutpat. Ut vestibulum mauris ullamcorper augue sodales, ut tempus neque placerat. Donec nec egestas justo, quis semper diam. Sed efficitur aliquam leo, sagittis gravida nisl tincidunt ut. Phasellus justo justo, feugiat a fringilla id, sollicitudin a arcu. In hac habitasse platea dictumst.",
       "link": "./vista-producto.html"
     },
     {
-      "id": 16,
+      "id":"16" ,
       "nombre": "Tetrix",
       "precio": 100,
       "imagen": "./img/productos/producto-16.png",
       "categoria": "diversos",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nibh vitae mi pellentesque viverra. Sed posuere orci ut pretium molestie. Integer lacinia enim vitae eros posuere ultricies. Pellentesque in risus accumsan neque ullamcorper tempus non pulvinar augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec auctor ligula vitae nisl laoreet cursus. Aliquam erat volutpat. Ut vestibulum mauris ullamcorper augue sodales, ut tempus neque placerat. Donec nec egestas justo, quis semper diam. Sed efficitur aliquam leo, sagittis gravida nisl tincidunt ut. Phasellus justo justo, feugiat a fringilla id, sollicitudin a arcu. In hac habitasse platea dictumst.",
       "link": "./vista-producto.html"
     },
     {
-      "id": 17,
+      "id":"17" ,
       "nombre": "Visores AR",
       "precio": 4800,
       "imagen": "./img/productos/producto-17.png",
       "categoria": "diversos",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nibh vitae mi pellentesque viverra. Sed posuere orci ut pretium molestie. Integer lacinia enim vitae eros posuere ultricies. Pellentesque in risus accumsan neque ullamcorper tempus non pulvinar augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec auctor ligula vitae nisl laoreet cursus. Aliquam erat volutpat. Ut vestibulum mauris ullamcorper augue sodales, ut tempus neque placerat. Donec nec egestas justo, quis semper diam. Sed efficitur aliquam leo, sagittis gravida nisl tincidunt ut. Phasellus justo justo, feugiat a fringilla id, sollicitudin a arcu. In hac habitasse platea dictumst.",
       "link": "./vista-producto.html"
     },
     {
-      "id": 18,
-      "nombre": "Producto misterioso",
+      "id":"18" ,
+      "nombre": "Poster",
       "precio": 250,
       "imagen": "./img/productos/producto-18.png",
       "categoria": "diversos",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nibh vitae mi pellentesque viverra. Sed posuere orci ut pretium molestie. Integer lacinia enim vitae eros posuere ultricies. Pellentesque in risus accumsan neque ullamcorper tempus non pulvinar augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec auctor ligula vitae nisl laoreet cursus. Aliquam erat volutpat. Ut vestibulum mauris ullamcorper augue sodales, ut tempus neque placerat. Donec nec egestas justo, quis semper diam. Sed efficitur aliquam leo, sagittis gravida nisl tincidunt ut. Phasellus justo justo, feugiat a fringilla id, sollicitudin a arcu. In hac habitasse platea dictumst.",
       "link": "./vista-producto.html"
     }
   ],
@@ -149,7 +167,7 @@
     {
       "correo": "correo@correo.com",
       "password": "12345",
-      "id": 1
+      "id":"1" 
     }
   ]
 }

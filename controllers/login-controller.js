@@ -40,12 +40,12 @@ async function usuarioExiste() {
         mostrarMensaje('Email o contraseña incorrecto, intenta nuevamente', 'error');
     } else {
 
-        mostrarMensaje('Iniciando sesión. Redireccionando a página de inicio', 'succes');
+        mostrarMensaje('Iniciando sesión. Redireccionando..', 'succes');
         spinner.classList.add('spinner');
         usuarioAutenticado(true)
         setTimeout(() => {
             spinner.classList.remove('spinner');
-            window.location.href = "/AluraShop/productos.html";
+            window.location.href = "/productos.html";
         }, 5000);
     }
 }

@@ -1,5 +1,5 @@
 const formularioFooter = document.querySelector('[data-form-footer]');
-const nombreMsj = document.querySelector('#input-nombre');
+const nombreMsj = document.querySelector('#nombre');
 const textarea = document.querySelector('#textarea');
 const btnEnviar = document.querySelector('#enviar-mensaje');
 

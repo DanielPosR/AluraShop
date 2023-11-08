@@ -1,24 +1,37 @@
 import { productosServicios } from "../services/productos-servicios.js";
 
 const contenedorProductos = document.querySelector('.productos');
+const sesionIniciada = localStorage.getItem('autenticado');
+
 
 function mostrarTodo(id, nombre, precio, imagen, categoria, link) {
 
     const div = document.createElement('div');
     div.classList.add('producto');
 
-    const contenido = `
-    <div>
+    const btnEliminar = document.createElement('button');
+    btnEliminar.textContent = 'Eliminar';
 
+    if (sesionIniciada) {
+        btnEliminar.classList.add('eliminar');
+    } else {
+        btnEliminar.classList.add('esconder');
+    }
+
+    btnEliminar.onclick = () => {
+        productosServicios.eliminarProducto(id);
+    }
+
+    div.innerHTML = `
         <img src="${imagen}" alt="producto star wars" class="producto_img">
+        
+        
         <p class="producto_nombre">${nombre}</p>
         <p class="producto_precio">$${precio}</p>
-        <a href="${link}?id=${id}" type="button" class="producto_enlace" data-verproducto>Ver producto</a>
-
-    </div>
+        <a href="${link}?id=${id}" class="producto_enlace" data-verproducto>Ver producto</a>
     `;
 
-    div.innerHTML = contenido;
+    div.appendChild(btnEliminar);
 
     return div;
 }
@@ -115,7 +128,7 @@ function mostrarResultadoBusqueda(id, nombre, precio, imagen, link) {
     <div>
 
         <img src="${imagen}">
-        <p class="producto_nombre" name="yoda">${nombre}</p>
+        <p class="producto_nombre">${nombre}</p>
         <p class="producto_precio">$${precio}</p>
 
         <a href="${link}?id=${id}" type="button" class="producto_enlace" data-verproducto>Ver producto</a>

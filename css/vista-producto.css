@@ -22,7 +22,7 @@
 @media (min-width: 768px) {
     .vista_producto-img {
         max-width: 100%;
-        width: 50%;
+        width: auto;
         height: 45rem;
     }
 }
