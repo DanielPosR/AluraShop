@@ -43,7 +43,7 @@ async function crearCuenta(e) {
             setTimeout(() => {
                 usuariosServices.crearCliente(inputEmail.value, inputPassword.value)
                     .then(respuesta => {
-                        window.location.href = "/login.html";
+                        window.location.href = "/AluraShop/login.html";
                         
                     })
 
